@@ -396,6 +396,35 @@
       card.appendChild(chips);
       root.appendChild(card);
     });
+    renderGlance(stages);
+  }
+
+  function renderGlance(stages) {
+    var root = $("glance");
+    root.textContent = "";
+    var title = document.createElement("h2");
+    title.textContent = "Platinum at a glance";
+    var counts = document.createElement("p");
+    counts.textContent = stages.map(function (stage) {
+      var label = stage.title.replace(/^\d+\s·\s/, "").toLowerCase();
+      return stage.ids.length + " " + label;
+    }).join(" · ");
+    var watch = 0;
+    var possible = 0;
+    state.trophies.forEach(function (trophy) {
+      if (trophy.missable === "watch") watch += 1;
+      else if (trophy.missable === "possible") possible += 1;
+    });
+    var risk = document.createElement("p");
+    risk.textContent = (watch + possible) + " missables (" + watch +
+      " watch, " + possible + " possible).";
+    var order = document.createElement("p");
+    order.className = "why";
+    order.textContent = "Estimated order: early story, then mid and late story, activities between missions, collectibles once you can cross the state, missable windows while they are open, then mop-up. The platinum is last.";
+    root.appendChild(title);
+    root.appendChild(counts);
+    root.appendChild(risk);
+    root.appendChild(order);
   }
 
   function renderMissables() {
@@ -503,6 +532,14 @@
     var wrap = $("coverage");
     wrap.textContent = "";
     wrap.appendChild(table);
+    var counts = gradeCounts();
+    var cites = citeTotals();
+    $("checked-copy").textContent = state.trophies.length + "/" + state.trophies.length +
+      " names matched against the official list. Grade split is " +
+      counts.platinum + " platinum, " + counts.gold + " gold, " +
+      counts.silver + " silver, " + counts.bronze + " bronze. " +
+      cites.cited + "/" + cites.total + " steps are cited. Sources were read " +
+      dates.map(formatRead).join(", ") + ".";
   }
 
   function showTab(name) {

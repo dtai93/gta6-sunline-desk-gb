@@ -91,9 +91,6 @@ assertInputs();
 mkdirSync(outputDir, { recursive: true });
 const appCopy = copyTree('app');
 const shotCopy = copyTree('screenshots');
-console.log(
-  `Copied ${appCopy.files} app files (${appCopy.bytes} bytes) and ${shotCopy.files} screenshots (${shotCopy.bytes} bytes)`,
-);
 
 /** Gate rule: every trophy guide is prose, not the step object. */
 function assertTextGuides(): void {
@@ -137,4 +134,8 @@ try {
   throw err;
 }
 writeFileSync(dossierPath, dossier);
-console.log(`Wrote ${dossierPath} (${dossier.byteLength} bytes)`);
+const copiedFiles = appCopy.files + shotCopy.files;
+const copiedBytes = appCopy.bytes + shotCopy.bytes;
+console.log(
+  `Copied ${copiedFiles} files (${copiedBytes} bytes) and wrote dossier.json (${dossier.byteLength} bytes)`,
+);
