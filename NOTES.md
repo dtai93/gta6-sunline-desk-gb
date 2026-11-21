@@ -23,4 +23,6 @@ Demo URLs, with app/ as the site root:
 
 Progress key: `sunline-desk-progress-v1` (earned ids plus the spoiler flag). Export writes `sunline-progress.json`.
 
-Still open: `main.ts` (copy app/ and screenshots/, write dossier.json), README badges, and real screenshots under screenshots/. Do not read the starter main.ts, app.js, or style.css before replacing them.
+`main.ts` copies `app/` and `screenshots/` into `MAKEFUN_OUTPUT_DIR` (else `/output`) and writes `dossier.json` via `buildDossier`. Caps match the scorer: text 163840, up to 4 shots at 256 KiB, 993 files, 50331648 app bytes. `tools/check.mjs` checks the 55 / 1-2-6-46 split, cited steps, and source ids. README badges are in place.
+
+Still open: real screenshots under `screenshots/` if the current three are not final renders of this desk. Do not read the starter `app.js` or `style.css` before replacing them. `out/` is gitignored and should stay empty after a local pack test.
