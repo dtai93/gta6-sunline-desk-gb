@@ -1,5 +1,24 @@
-[
-  { "file": "1-checklist.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-silver.jpg", "path": "/", "grade": "silver", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-bronze.jpg", "path": "/", "grade": "bronze", "scroll": 1400, "viewport": { "width": 1280, "height": 800 } }
-]
+{
+  "screenshots": [
+    {
+      "file": "1-tracker.jpg",
+      "caption": "Tracker with the audit strip, kind and grade filters, spoiler control, export and import, and the cited Positive Mental Attitude walkthrough.",
+      "url": "/?demo=1&tab=tracker&trophy=positive-mental-attitude"
+    },
+    {
+      "file": "2-roadmap.jpg",
+      "caption": "Six-stage platinum path. Each card names the trophies in that stage and why that order.",
+      "url": "/?demo=1&tab=roadmap"
+    },
+    {
+      "file": "3-missables.jpg",
+      "caption": "Missable matrix: watch and possible trophies against chapter timing and free roam.",
+      "url": "/?demo=1&tab=missables"
+    },
+    {
+      "file": "4-sources.jpg",
+      "caption": "Seven public pages read on 21 November 2026, with the full coverage grid beside the list.",
+      "url": "/?demo=1&tab=sources"
+    }
+  ]
+}

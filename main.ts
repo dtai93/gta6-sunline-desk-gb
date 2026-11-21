@@ -7,6 +7,9 @@ import { cpSync, existsSync, mkdirSync, readdirSync, rmSync, statSync, writeFile
 import { join, resolve } from 'node:path';
 import { DossierError, buildDossier } from './vendor/makefun-frontend.ts';
 
+/** Scorer cap: each screenshot file is at most 256 KiB. */
+const SHOT_MAX_BYTES = 256 * 1024;
+
 const repoRoot = import.meta.dirname;
 const outputDir = resolve(process.env.MAKEFUN_OUTPUT_DIR ?? '/output');
 
@@ -40,25 +43,57 @@ function assertInputs(): void {
   for (const name of readdirSync(shotsDir)) {
     if (name.startsWith('.')) continue;
     const full = join(shotsDir, name);
-    if (!statSync(full).isFile()) continue;
-    if (/\.(png|jpe?g)$/i.test(name)) images += 1;
+    const info = statSync(full);
+    if (!info.isFile()) continue;
+    if (!/\.(png|jpe?g)$/i.test(name)) continue;
+    images += 1;
+    if (info.size > SHOT_MAX_BYTES) {
+      fail(
+        `Cannot pack: screenshots/${name} is ${info.size} bytes, over the 256 KiB cap (${SHOT_MAX_BYTES}).`,
+      );
+    }
   }
   if (images < 1) {
     fail(`Cannot pack: screenshots/ has no PNG or JPEG files (${shotsDir}).`);
   }
 }
 
-function copyTree(name: 'app' | 'screenshots'): void {
+type CopyReport = { files: number; bytes: number };
+
+/** Count regular files under a copied tree, skipping dot names. */
+function measureTree(dir: string): CopyReport {
+  let files = 0;
+  let bytes = 0;
+  const walk = (current: string): void => {
+    for (const entry of readdirSync(current, { withFileTypes: true })) {
+      if (entry.name.startsWith('.')) continue;
+      const full = join(current, entry.name);
+      if (entry.isDirectory()) walk(full);
+      else if (entry.isFile()) {
+        files += 1;
+        bytes += statSync(full).size;
+      }
+    }
+  };
+  walk(dir);
+  return { files, bytes };
+}
+
+function copyTree(name: 'app' | 'screenshots'): CopyReport {
   const from = join(repoRoot, name);
   const to = join(outputDir, name);
   rmSync(to, { recursive: true, force: true });
   cpSync(from, to, { recursive: true, dereference: true });
+  return measureTree(to);
 }
 
 assertInputs();
 mkdirSync(outputDir, { recursive: true });
-copyTree('app');
-copyTree('screenshots');
+const appCopy = copyTree('app');
+const shotCopy = copyTree('screenshots');
+console.log(
+  `Copied ${appCopy.files} app files (${appCopy.bytes} bytes) and ${shotCopy.files} screenshots (${shotCopy.bytes} bytes)`,
+);
 
 const dossierPath = join(outputDir, 'dossier.json');
 let dossier: Uint8Array;
