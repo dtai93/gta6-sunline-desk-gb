@@ -174,7 +174,7 @@
     var total = 0;
     var cited = 0;
     state.trophies.forEach(function (trophy) {
-      var steps = (trophy.guide && trophy.guide.steps) || [];
+      var steps = (trophy.walkthrough && trophy.walkthrough.steps) || [];
       steps.forEach(function (step) {
         total += 1;
         if (Array.isArray(step.cites) && step.cites.length) cited += 1;
@@ -309,8 +309,14 @@
     var where = document.createElement("p");
     where.className = "why";
     where.textContent = trophy.chapter;
+    var summary = null;
+    if (typeof trophy.guide === "string" && trophy.guide.trim()) {
+      summary = document.createElement("p");
+      summary.className = "summary";
+      summary.textContent = trophy.guide.trim();
+    }
     var steps = document.createElement("ol");
-    ((trophy.guide && trophy.guide.steps) || []).forEach(function (step) {
+    ((trophy.walkthrough && trophy.walkthrough.steps) || []).forEach(function (step) {
       var item = document.createElement("li");
       var text = document.createElement("p");
       text.className = "step";
@@ -329,6 +335,7 @@
     guide.appendChild(title);
     guide.appendChild(official);
     guide.appendChild(where);
+    if (summary) guide.appendChild(summary);
     guide.appendChild(steps);
   }
 

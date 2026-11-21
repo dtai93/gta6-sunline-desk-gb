@@ -8,19 +8,30 @@
     "kind": "misc",
     "chapter": "After the other 54 trophies.",
     "missable": "none",
-    "guide": {
+    "guide": "Clear the other 54 trophies on one single-player save. The long stretch is the 100% checklist behind A Long Road, which published runs put near 200 hours, and cheats on that save shut off both trophies and saving. [s1][s2][s7][s3]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Clear the other 54 trophies in single-player. Nothing on the list is online or tied to a difficulty mode.",
-          "cites": ["s1", "s2", "s7"]
+          "cites": [
+            "s1",
+            "s2",
+            "s7"
+          ]
         },
         {
           "text": "Most of the time is the 100% checklist behind A Long Road. Guides put a full platinum run near 200 hours.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Keep cheats off the save you are using. Published notes say cheats shut off both trophies and saving.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -34,15 +45,22 @@
     "kind": "story",
     "chapter": "Chapter 1, mission Gone Fishing.",
     "missable": "none",
-    "guide": {
+    "guide": "Play the Chapter 1 mission Gone Fishing through to the end. The bronze is for that story clear, not a side objective inside the mission. [s1][s3][s2][s7]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Play the early Chapter 1 mission Gone Fishing through to the end.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "This is a story bronze. It shows up on a normal pass of that mission and is not a side objective.",
-          "cites": ["s2", "s7"]
+          "cites": [
+            "s2",
+            "s7"
+          ]
         }
       ]
     }
@@ -56,15 +74,21 @@
     "kind": "story",
     "chapter": "Pops as Chapter 2 begins.",
     "missable": "none",
-    "guide": {
+    "guide": "Finish Chapter 1. Walkthroughs place the pop on the first Chapter 2 mission, What's in the Bag?, rather than on the chapter credits. [s1][s3][s7]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish Chapter 1. The published line is only that.",
-          "cites": ["s1"]
+          "cites": [
+            "s1"
+          ]
         },
         {
           "text": "Walkthroughs say the pop is on the first Chapter 2 mission, What's in the Bag?, rather than on the Chapter 1 credits.",
-          "cites": ["s3", "s7"]
+          "cites": [
+            "s3",
+            "s7"
+          ]
         }
       ]
     }
@@ -78,15 +102,22 @@
     "kind": "story",
     "chapter": "Pops as Chapter 3 begins.",
     "missable": "none",
-    "guide": {
+    "guide": "Finish Chapter 2. The published name keeps the asterisks, and the unlock is reported as Chapter 3 opens, after Welcome to Vice City. [s1][s2][s3][s7]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish Chapter 2. The trophy name is published with the asterisks.",
-          "cites": ["s1", "s2"]
+          "cites": [
+            "s1",
+            "s2"
+          ]
         },
         {
           "text": "It is reported to unlock as Chapter 3 opens, after Welcome to Vice City.",
-          "cites": ["s3", "s7"]
+          "cites": [
+            "s3",
+            "s7"
+          ]
         }
       ]
     }
@@ -100,15 +131,21 @@
     "kind": "story",
     "chapter": "Early Chapter 4, after two missions.",
     "missable": "none",
-    "guide": {
+    "guide": "Finish the Chapter 3 story. The pop is placed after the first two Chapter 4 missions, Ocean Beach and Another Life. [s1][s3][s7]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish the Chapter 3 story.",
-          "cites": ["s1"]
+          "cites": [
+            "s1"
+          ]
         },
         {
           "text": "The unlock is placed after the first two Chapter 4 missions, Ocean Beach and Another Life.",
-          "cites": ["s3", "s7"]
+          "cites": [
+            "s3",
+            "s7"
+          ]
         }
       ]
     }
@@ -122,15 +159,21 @@
     "kind": "story",
     "chapter": "End of Chapter 4.",
     "missable": "none",
-    "guide": {
+    "guide": "Finish Chapter 4. This bronze is separate from the gold for the final mission, and one walkthrough ties the pop to Starting From Zero. [s1][s2][s3]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish Chapter 4. This bronze is separate from the gold for the final mission.",
-          "cites": ["s1", "s2"]
+          "cites": [
+            "s1",
+            "s2"
+          ]
         },
         {
           "text": "One walkthrough ties the pop to the last Chapter 4 mission, Starting From Zero.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         }
       ]
     }
@@ -144,19 +187,29 @@
     "kind": "story",
     "chapter": "Last story mission, after Chapter 4.",
     "missable": "none",
-    "guide": {
+    "guide": "Beat the last story mission for the second gold. There is no mission replay, so keep a manual save just before that Chapter 5 finale if you want another ending. [s1][s2][s5][s3]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Beat the last story mission. That is the whole requirement, and it is the second gold.",
-          "cites": ["s1", "s2"]
+          "cites": [
+            "s1",
+            "s2"
+          ]
         },
         {
           "text": "There is no mission replay. Keep a manual save from just before the finale if you want another ending.",
-          "cites": ["s2", "s5"]
+          "cites": [
+            "s2",
+            "s5"
+          ]
         },
         {
           "text": "Chapter notes put that finale in Chapter 5, after the Chapter 4 trophy.",
-          "cites": ["s3", "s5"]
+          "cites": [
+            "s3",
+            "s5"
+          ]
         }
       ]
     }
@@ -170,15 +223,21 @@
     "kind": "story",
     "chapter": "Chapter 2, Breakfast Run.",
     "missable": "none",
-    "guide": {
+    "guide": "Finish the Chapter 2 mission Breakfast Run. Partner switching opens around this point, which the later pair trophies need. [s1][s3][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish the Chapter 2 mission Breakfast Run.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "Partner switching opens around this point, which later pair trophies need.",
-          "cites": ["s2"]
+          "cites": [
+            "s2"
+          ]
         }
       ]
     }
@@ -192,15 +251,22 @@
     "kind": "story",
     "chapter": "Chapter 3, The Cartel Heist.",
     "missable": "none",
-    "guide": {
+    "guide": "Finish the Chapter 3 story mission The Cartel Heist. A normal clear is enough. You do not need a flawless heist. [s1][s3][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish the Chapter 3 story mission The Cartel Heist.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "It is a story bronze. You do not need a flawless heist, only the mission clear.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -214,15 +280,21 @@
     "kind": "story",
     "chapter": "Chapter 4, Child's Play.",
     "missable": "none",
-    "guide": {
+    "guide": "Finish the Chapter 4 mission Child's Play. Guides describe it as that chapter's rescue job, and clearing the mission is the whole trophy. [s1][s2][s3]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish the Chapter 4 mission Child's Play.",
-          "cites": ["s1", "s2"]
+          "cites": [
+            "s1",
+            "s2"
+          ]
         },
         {
           "text": "Guides describe it as the rescue job in that chapter. Clearing the mission is enough.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         }
       ]
     }
@@ -236,15 +308,20 @@
     "kind": "story",
     "chapter": "Chapter 4, Headliners.",
     "missable": "none",
-    "guide": {
+    "guide": "Finish the Chapter 4 mission Headliners. Walkthroughs frame it as helping with a launch party, and the bronze is for completing that mission. [s1][s3]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish the Chapter 4 mission Headliners.",
-          "cites": ["s1"]
+          "cites": [
+            "s1"
+          ]
         },
         {
           "text": "Walkthroughs frame it as helping with a launch party. The bronze is for completing that mission.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         }
       ]
     }
@@ -258,15 +335,22 @@
     "kind": "story",
     "chapter": "Chapter 4, VCIA Takedown.",
     "missable": "none",
-    "guide": {
+    "guide": "Finish the Chapter 4 story mission VCIA Takedown. That scripted airport job is separate from the free-roam passenger-jet theft. [s1][s3][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish the Chapter 4 story mission VCIA Takedown.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "This is the scripted airport job. The free-roam passenger-jet theft is a different trophy.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -280,15 +364,20 @@
     "kind": "story",
     "chapter": "Chapter 5, Operation Savage Glory.",
     "missable": "none",
-    "guide": {
+    "guide": "Finish Operation Savage Glory. Guides place that mission in Chapter 5, after the Chapter 4 story set. [s1][s3]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish Operation Savage Glory.",
-          "cites": ["s1"]
+          "cites": [
+            "s1"
+          ]
         },
         {
           "text": "Guides place that mission in Chapter 5, after the Chapter 4 story set.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         }
       ]
     }
@@ -303,19 +392,29 @@
     "chapter": "Checklist opens after the credits.",
     "missable": "none",
     "count": 100,
-    "guide": {
+    "guide": "After the story, open Progress, then Stats, then 100% Completion. Work you already did counts. Some lines are partial, such as 100 optional tasks, 200 of 277 base vehicles, 100 of 255 animals, 70 of 80 challenges, 300 of 397 stunts, and 15 of 18 meditations, while robberies, underwater discoveries, range golds, drone races, and Bret's hunts want everything, and nothing on the list is reported as missable. [s2][s6][s3]",
+    "walkthrough": {
       "steps": [
         {
           "text": "After the story, open Progress, then Stats, then 100% Completion. Work you did earlier already counts.",
-          "cites": ["s2", "s6"]
+          "cites": [
+            "s2",
+            "s6"
+          ]
         },
         {
           "text": "The list is partial on purpose. Examples from the checklist: any 100 optional tasks, 200 of 277 base vehicles scanned, 100 of 255 animals studied, 70 of 80 challenges, 300 of 397 stunts, and 15 of 18 meditations.",
-          "cites": ["s3", "s6"]
+          "cites": [
+            "s3",
+            "s6"
+          ]
         },
         {
           "text": "A few categories do want everything, including robberies, underwater discoveries, shooting-range golds, drone races, and Bret's hunting jobs. Nothing on this checklist is reported as missable.",
-          "cites": ["s3", "s6"]
+          "cites": [
+            "s3",
+            "s6"
+          ]
         }
       ]
     }
@@ -330,19 +429,29 @@
     "chapter": "Any time. 100% wants 300.",
     "missable": "none",
     "count": 250,
-    "guide": {
+    "guide": "Finish any 250 stunts. Jumps, bridge flights, knife flights, and base jumps share one total, a single pass is enough, and the tracker is under Progress, Activities, Stunts or the map list. Keep going to 300 for 100%, and bridge passes are the quickest batch. [s1][s3][s2][s6]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish any 250 stunts. Jumps, bridge flights, knife flights, and base jumps all count toward the same total.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "Track them under Progress, Activities, Stunts, or from the map's stunt list. Doing the stunt once is enough. Extra challenge goals on the icon are not required.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "Keep going to 300 if you are chasing 100%. Bridge passes are called out as the quickest batch.",
-          "cites": ["s2", "s3", "s6"]
+          "cites": [
+            "s2",
+            "s3",
+            "s6"
+          ]
         }
       ]
     }
@@ -356,19 +465,28 @@
     "kind": "activity",
     "chapter": "Spread across the story and free roam.",
     "missable": "none",
-    "guide": {
+    "guide": "Open Progress, then Activities, and try each type once. The in-game tracker is reported as nine: fishing, hunting, golf, a shooting range, pool, a basketball hoop, an arcade game, a race or drone race, and one stunt. Blue icons show up as the fog clears, and a normal platinum run covers each type. [s1][s3][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Open Progress, then Activities, and try each type once. The in-game tracker is reported as nine types.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "The set guides list is fishing, hunting, golf, a shooting range, pool, a basketball hoop, an arcade game, a race or drone race, and one stunt.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "Blue activity icons show up as you clear map fog, and a normal platinum run covers each type without a separate grind.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -382,15 +500,22 @@
     "kind": "activity",
     "chapter": "After ranges are on the map. Required for 100%.",
     "missable": "none",
-    "guide": {
+    "guide": "Earn gold on every shooting-range challenge. The trophy text does not let you skip any, and the matching 100% line is the same 42 of 42 range golds. [s1][s2][s3][s6]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Earn gold on every shooting-range challenge. The trophy text does not allow you to skip any.",
-          "cites": ["s1", "s2"]
+          "cites": [
+            "s1",
+            "s2"
+          ]
         },
         {
           "text": "The matching 100% line is 42 of 42 range golds, so this silver and that checklist box are the same job.",
-          "cites": ["s3", "s6"]
+          "cites": [
+            "s3",
+            "s6"
+          ]
         }
       ]
     }
@@ -404,15 +529,22 @@
     "kind": "activity",
     "chapter": "When drone races are marked. Stricter for 100%.",
     "missable": "none",
-    "guide": {
+    "guide": "Win one Top Fun drone race at each location. Guides count 14 sites, while the 100% checklist is tighter and wants all 42 drone time trials. [s1][s2][s3][s6]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Win one Top Fun drone race at each location. One win per site is what the trophy asks for.",
-          "cites": ["s1", "s2"]
+          "cites": [
+            "s1",
+            "s2"
+          ]
         },
         {
           "text": "Guides count 14 locations. The 100% checklist is tighter and wants all 42 drone time trials, not just one win per site.",
-          "cites": ["s3", "s6"]
+          "cites": [
+            "s3",
+            "s6"
+          ]
         }
       ]
     }
@@ -427,15 +559,22 @@
     "chapter": "Street and event races, any time they are open.",
     "missable": "none",
     "count": 20,
-    "guide": {
+    "guide": "Win 20 different races. Repeating one course does not add a new one. Published maps list about 40 unique races, and 100% only needs 30 of those wins, so this bronze comes first. [s1][s2][s3][s6]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Win 20 different races. Repeating one course does not add a new race.",
-          "cites": ["s1", "s2"]
+          "cites": [
+            "s1",
+            "s2"
+          ]
         },
         {
           "text": "Published maps list about 40 unique races. The 100% checklist only needs 30 of those wins, so this bronze comes first.",
-          "cites": ["s3", "s6"]
+          "cites": [
+            "s3",
+            "s6"
+          ]
         }
       ]
     }
@@ -449,15 +588,21 @@
     "kind": "activity",
     "chapter": "After Chapter 1 mission Feng Shui.",
     "missable": "none",
-    "guide": {
+    "guide": "Meet Cal in the Chapter 1 mission Feng Shui, then wait for his text. He marks a fishing spot with a purple icon west of Key Lento. Beat him there. [s3][s1]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Meet Cal in the Chapter 1 mission Feng Shui, then wait for his text.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "The text marks a fishing spot with a purple icon west of Key Lento. Beat him there.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         }
       ]
     }
@@ -471,19 +616,28 @@
     "kind": "activity",
     "chapter": "Home TV from Chapter 1, or arcade cabinets later.",
     "missable": "none",
-    "guide": {
+    "guide": "Finish every level of one video game. The extra challenge goals are not required. Three games sit on the TV at home, including during Chapter 1 (Tenebrae Lux, Street Trash III, and Time Jackers Rewind), Bang For Your Buck is on cabinets around the map, and the home set can lock during story stretches before returning in free roam after the credits. [s1][s3][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish every level of one video game. You do not need the extra challenge goals.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "Three games sit on the TV at home, including during Chapter 1: Tenebrae Lux, Street Trash III, and Time Jackers Rewind. Bang For Your Buck is on cabinets around the map.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "The home set can be locked during some story stretches. It is available again in free roam after the credits.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -497,19 +651,29 @@
     "kind": "activity",
     "chapter": "Lucia only. Marked in Chapter 3, Belville.",
     "missable": "none",
-    "guide": {
+    "guide": "As Lucia in Chapter 3, take Andy's call and follow the marker to her home in Belville. Play her strand through the five stops to the warehouse meetup. It stays on the map after the credits and does not count as one of the eight Strangers and Freaks. [s2][s3][s1]",
+    "walkthrough": {
       "steps": [
         {
           "text": "As Lucia in Chapter 3, take Andy's call. Her home in Belville is then marked.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Play her strand through to the last job. Guides list five stops, ending at the warehouse meetup.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "The strand is still on the map after the credits. It does not count as one of the eight Strangers and Freaks.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -523,19 +687,28 @@
     "kind": "activity",
     "chapter": "Starts in Chapter 1 at Key Lento. Pauses, then returns.",
     "missable": "watch",
-    "guide": {
+    "guide": "After Island Dreams, wait for Kenton's call and use the green KR marker at his Key Lento shop. Dive the seven wrecks he marks, sweep the seabed with the metal detector, and return the finds. He drops off the map when Chapter 1 ends, then texts again in Chapter 2 or 3, calling Brian as Jason can bring him back sooner, and the trophy is still available after the story. [s3][s1][s5]",
+    "walkthrough": {
       "steps": [
         {
           "text": "After Island Dreams, wait for Kenton's call. His shop in Key Lento uses a green KR marker.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "Dive the wrecks he marks, use the metal detector on the seabed, and return the finds. His strand is seven wrecks.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "He drops off the map when Chapter 1 ends, then texts again in Chapter 2 or 3. Calling Brian as Jason can bring him back sooner. The trophy is still available after the story.",
-          "cites": ["s3", "s5"]
+          "cites": [
+            "s3",
+            "s5"
+          ]
         }
       ]
     }
@@ -549,19 +722,28 @@
     "kind": "activity",
     "chapter": "After Chapter 2 Coffee Break. Thrillbilly Mudclub.",
     "missable": "none",
-    "guide": {
+    "guide": "After Coffee Break in Chapter 2, go to Billy at Thrillbilly Mudclub in Kelly County and finish his five jobs through Hometown Heroes. That last job is the trophy. The strand stays available after the credits and is not one of the eight stranger strands. [s3][s1][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "After Coffee Break in Chapter 2, go to Billy at Thrillbilly Mudclub in Kelly County.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "Finish his five jobs, through Hometown Heroes. That last job is the trophy.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "His strand stays available after the credits and is not one of the eight stranger strands.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -576,19 +758,30 @@
     "chapter": "Open world. Watch Yago's timed race in Chapter 3.",
     "missable": "possible",
     "count": 8,
-    "guide": {
+    "guide": "Finish eight stranger strands. Named givers who already have their own trophies, such as Andy, Billy, and Tyrone, do not fill this counter, while confirmed strands include Kirk's skunk-ape hunt, Kyle at McKittrick Farm, Yago's street races, and Pilot Pete's deliveries. Race Against Yago in Chapter 3 carries an hourglass, and one checklist calls it the only lock for this silver, so do it when it appears even though another guide says the strands remain after the story. [s1][s2][s3][s5]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish eight stranger strands. Named quest givers with their own trophies, such as Andy, Billy, and Tyrone, do not fill this counter.",
-          "cites": ["s1", "s2", "s3"]
+          "cites": [
+            "s1",
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Strands guides have confirmed include Kirk's skunk-ape hunt, Kyle at McKittrick Farm, Yago's street races, and Pilot Pete's deliveries. More strands are still being listed.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "Race Against Yago in Chapter 3 carries an hourglass. One checklist calls it the only way to lock this silver. Another guide says stranger strands remain after the story. Do the race when it appears.",
-          "cites": ["s2", "s3", "s5"]
+          "cites": [
+            "s2",
+            "s3",
+            "s5"
+          ]
         }
       ]
     }
@@ -602,19 +795,28 @@
     "kind": "activity",
     "chapter": "After Chapter 3, Clonin' Keys, Makin' GS.",
     "missable": "none",
-    "guide": {
+    "guide": "Finish Clonin' Keys, Makin' GS so you have the key cloner and have already delivered Randy one sports car, then fill his Wish List by delivering the cars he marks or by scanning traffic with WAiNK and driving matches to his green RK garage in west Vice City. The list stays open after the credits. A car in better shape pays more, but the trophy is for finishing the strand. [s3][s1][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish Clonin' Keys, Makin' GS so you have the key cloner and have already delivered Randy one sports car.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "Fill Randy's Wish List. He marks some cars. You can also scan traffic with WAiNK and drive matches to his green RK garage in west Vice City.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "The list is still open after the credits. Delivering a car in better shape pays more, but the trophy is for finishing the strand.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -628,19 +830,29 @@
     "kind": "activity",
     "chapter": "Jason only, after Chapter 3 Here, Kitty Kitty.",
     "missable": "none",
-    "guide": {
+    "guide": "As Jason, after Here, Kitty Kitty, destroy the Kitty Litter labs Tyrone marks in Vice City. His follow-up, also called Spin On This, is the job that pops the trophy. The labs stay available after the story, and this strand does not count toward Strangers and Freaks. [s3][s4][s1][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "As Jason, after Here, Kitty Kitty, destroy the Kitty Litter labs Tyrone marks in Vice City.",
-          "cites": ["s3", "s4"]
+          "cites": [
+            "s3",
+            "s4"
+          ]
         },
         {
           "text": "His follow-up, also called Spin On This, is the job that pops the trophy.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "The labs stay available after the story. This strand does not count toward Strangers and Freaks.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -654,19 +866,31 @@
     "kind": "missable",
     "chapter": "Spots across the state. Both characters after Coffee Break.",
     "missable": "possible",
-    "guide": {
+    "guide": "Meditate at all 18 marked spots, tracked under Progress, Collections, Exploration, Meditations, and the same spot can count again when the other character sits there. Pair sessions open after Coffee Break in Chapter 2, 100% only needs 15 of 18, and you should still take the Chapter 1 balcony at Jason's house the morning after Down to Earth while you live there, because early notes treated that session as required even though a later checklist says it is not counted. [s1][s3][s5][s6][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Meditate at every marked spot. Progress sits under Progress, Collections, Exploration, Meditations. Guides count 18 spots, and the same spot can count again if the other character meditates there.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "You cannot finish the pair meditations until both characters can travel together, which opens after Coffee Break in Chapter 2. The 100% checklist only needs 15 of 18.",
-          "cites": ["s3", "s5", "s6"]
+          "cites": [
+            "s3",
+            "s5",
+            "s6"
+          ]
         },
         {
           "text": "Early guides say a Chapter 1 balcony session at Jason's house, the morning after Down to Earth, may be required and then vanishes. A 21 November checklist says that session is not counted and old spots can be revisited. Do the balcony one anyway while you still live there.",
-          "cites": ["s2", "s3", "s5"]
+          "cites": [
+            "s2",
+            "s3",
+            "s5"
+          ]
         }
       ]
     }
@@ -680,19 +904,29 @@
     "kind": "activity",
     "chapter": "Jason only, after Chapter 2 Coffee Break.",
     "missable": "none",
-    "guide": {
+    "guide": "As Jason, answer Bret Vogel's text after Coffee Break and meet him in Lummox County. Lucia does not get that text. Hunt the animals on his Target Deck (Map, Activities, Target Deck) and bring them back; 100% wants all 15 decks, a clean shot pays more but is not required, and which single animal flips the trophy is still being checked. [s3][s1][s2][s6]",
+    "walkthrough": {
       "steps": [
         {
           "text": "As Jason, answer Bret Vogel's text after Coffee Break and meet him in Lummox County. Lucia does not get the text.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "Hunt the animals on his Target Deck and bring them back. The deck list is under Map, Activities, Target Deck.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "100% wants all 15 target decks, so this bronze falls out of that work. Which single animal flips the trophy is still being checked. A clean shot pays more but is not required to finish a request.",
-          "cites": ["s2", "s3", "s6"]
+          "cites": [
+            "s2",
+            "s3",
+            "s6"
+          ]
         }
       ]
     }
@@ -707,15 +941,21 @@
     "chapter": "Any time. Grab Starlet Motel cards before Checking Out.",
     "missable": "watch",
     "count": 3,
-    "guide": {
+    "guide": "Finish any three collectible card sets. Guides map 18 sets in total. Two cards, Vicki and Victor Maravilla, sit in the Starlet Motel and leave with it at the Chapter 2 finale Checking Out, so pick those up while you still have the room. [s1][s3][s5]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish any three collectible card sets. Guides map 18 sets in total.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "Two cards, Vicki and Victor Maravilla, sit in the Starlet Motel and leave with it at the Chapter 2 finale Checking Out. Pick those up while you still have the room.",
-          "cites": ["s5"]
+          "cites": [
+            "s5"
+          ]
         }
       ]
     }
@@ -730,15 +970,22 @@
     "chapter": "Any time after the WAiNK app is on the phone.",
     "missable": "none",
     "count": 100,
-    "guide": {
+    "guide": "Scan 100 world spots with the WAiNK app. Any 100 count, and the state has more than that, in groups such as landmarks, curiosities, sculptures, and No Flusher tags. Scanning vehicles is a different trophy. [s1][s3][s4]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Scan 100 world spots with the WAiNK app. Any 100 count. There are more than 100 in the state.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "Published groups include landmarks, curiosities, sculptures, and No Flusher tags. Scan as you travel. This is separate from scanning vehicles.",
-          "cites": ["s3", "s4"]
+          "cites": [
+            "s3",
+            "s4"
+          ]
         }
       ]
     }
@@ -753,19 +1000,29 @@
     "chapter": "Leave until late. 100% wants 70 of 80.",
     "missable": "none",
     "count": 50,
-    "guide": {
+    "guide": "Complete 50 challenges under Progress, then Challenges, using the completed tick while you scroll. There are 80, and many fill in during other trophies, so pick the short ones you still have near the end. 100% asks for 70 of 80, so the bronze pops before that box is full. [s1][s3][s2][s6]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Complete 50 challenges. Open Progress, then Challenges, and use the completed tick while you scroll.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "There are 80. Many fill in while you do other trophies, so check this near the end and pick the short ones you still have.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "100% asks for 70 of 80, so the bronze pops before that box is full.",
-          "cites": ["s3", "s6"]
+          "cites": [
+            "s3",
+            "s6"
+          ]
         }
       ]
     }
@@ -779,19 +1036,31 @@
     "kind": "misc",
     "chapter": "After Coffee Break, once you can call your partner.",
     "missable": "watch",
-    "guide": {
+    "guide": "After Coffee Break, call your partner and raise the wanted level to four stars, then leave the red heat zone rather than only the flashing search ring. A fast bike helps, and the train tunnel north of Ambrosia is one route because the helicopter loses you. Large bank vaults start at four stars and are required for 100%, so the pop often happens on that escape, but do it before the finale if the ending might split the pair. [s1][s2][s3][s5][s6]",
+    "walkthrough": {
       "steps": [
         {
           "text": "After Coffee Break, call your partner in, then cause enough trouble to hit four stars.",
-          "cites": ["s1", "s2", "s3"]
+          "cites": [
+            "s1",
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "The trophy waits until you leave the red heat zone, not merely the flashing search ring. A fast bike helps. The train tunnel north of Ambrosia is one route guides use because the helicopter loses you.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "A large bank vault always starts at four stars, and those vaults are required for 100%, so this often pops during that escape. Do it before the finale if you are unsure the ending still lets you play as both.",
-          "cites": ["s3", "s5", "s6"]
+          "cites": [
+            "s3",
+            "s5",
+            "s6"
+          ]
         }
       ]
     }
@@ -806,19 +1075,29 @@
     "chapter": "After Coffee Break. Easier once jewelry stores are open.",
     "missable": "watch",
     "count": 3,
-    "guide": {
+    "guide": "Call your partner and rob three shops in a row without letting the wanted level drop, staying in the flashing chase and not only the red heat zone. The pop lags about half a minute after the third shop, so hit a fourth if it stays quiet, and take a few items plus the back safe when you can. Three jewelry stores in north Vice City are a known route after Yasmani's Chapter 3 jobs, and pair work should be done before the finale if the ending might split the characters. [s1][s2][s3][s5]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Call your partner, then rob three shops in a row while the wanted level never drops. Stay in the flashing chase, not only the red heat zone.",
-          "cites": ["s1", "s2"]
+          "cites": [
+            "s1",
+            "s2"
+          ]
         },
         {
           "text": "The pop is delayed, about half a minute after you leave the third shop. If it does not come, hit a fourth shop. Take a few items in each store, and crack the back safe if you can.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Three jewelry stores in north Vice City are a known route, after Yasmani's jewelry jobs in Chapter 3. Finish pair jobs before the finale if your ending might split the characters.",
-          "cites": ["s3", "s5"]
+          "cites": [
+            "s3",
+            "s5"
+          ]
         }
       ]
     }
@@ -833,19 +1112,29 @@
     "chapter": "From Chapter 1, once WAiNK can scan traffic.",
     "missable": "none",
     "count": 100,
-    "guide": {
+    "guide": "Discover 100 different vehicles by pointing WAiNK at traffic. You do not have to drive each one, boats and aircraft count, and the totals sit under Progress, Vehicles. 100% wants 200 of 277 base models, so this bronze arrives well before that box. [s1][s3][s2][s6]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Discover 100 different vehicles. Point WAiNK at traffic and scan. You do not have to drive each one.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "Check totals under Progress, Vehicles. Include boats and aircraft when you see them.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "100% wants 200 of 277 base models, so this bronze arrives well before that box.",
-          "cites": ["s3", "s6"]
+          "cites": [
+            "s3",
+            "s6"
+          ]
         }
       ]
     }
@@ -860,19 +1149,28 @@
     "chapter": "Easier at higher Focus. Gang sites work.",
     "missable": "none",
     "count": 5,
-    "guide": {
+    "guide": "While aiming a gun, trigger Combat Focus and drop five enemies before that one use ends. Fill the bar first with food, a wash, or Adrenaline, then use a full-auto rifle up close at a gang operation in body armor. Police, soldiers, and civilians are reported not to count, and the four Focus levels rise from ranges, golf, pool, fishing, and headshots, so the trophy gets easier later. [s1][s3][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "While aiming a gun, trigger Combat Focus and drop five enemies before that one use ends.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "Raise the Focus bar first (food, a wash, or Adrenaline). Use a full-auto rifle at a gang operation, up close, in body armor. Police, soldiers, and civilians are reported not to count.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Focus has four levels, shown on the character page. Ranges, golf, pool, fishing, and headshots raise it, so the trophy gets easier later.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         }
       ]
     }
@@ -886,19 +1184,30 @@
     "kind": "misc",
     "chapter": "Free roam at Vice City International Airport.",
     "missable": "none",
-    "guide": {
+    "guide": "At VCIA, take a large passenger jet that is still attached to a boarding bridge. Jets parked out on the field do not count. Gates E3 and E4 are the easy pair: stairs by the bridge, up to the cockpit, back onto the runway, then fly about a kilometer away because the pop is delayed, and save first because the police arrive quickly. [s1][s2][s3]",
+    "walkthrough": {
       "steps": [
         {
           "text": "At VCIA, take a large passenger jet that is attached to a boarding bridge. Jets parked out on the field do not count.",
-          "cites": ["s1", "s2", "s3"]
+          "cites": [
+            "s1",
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Gates E3 and E4 are the easy pair. Stairs by the bridge lead into the plane. Go up to the cockpit, back onto the runway, and take off.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "The pop is delayed. Fly about a kilometer away from the airport. Save first. The police arrive quickly.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -912,19 +1221,29 @@
     "kind": "misc",
     "chapter": "Mile Zero Air Station, south-west map edge.",
     "missable": "none",
-    "guide": {
+    "guide": "Steal a military tank (the line about Rhinos is the hint) from the south side of Mile Zero Air Station, the island at the south-west edge of the map. Drive in through the gate or the stunt jump by the south-east entrance, get in, and fire on the soldiers until it pops. Save before you enter the base. [s1][s4][s2][s3]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Steal a military tank. The line about Rhinos is the hint.",
-          "cites": ["s1", "s4"]
+          "cites": [
+            "s1",
+            "s4"
+          ]
         },
         {
           "text": "Tanks sit on the south side of Mile Zero Air Station, on the island at the south-west edge of the map. Drive through the gate or use the stunt jump by the south-east entrance.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Get in and fire on the soldiers there until the trophy pops. Save before you enter the base.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -938,19 +1257,30 @@
     "kind": "misc",
     "chapter": "After Chapter 3, Yasmani's Jewelry Jobs.",
     "missable": "none",
-    "guide": {
+    "guide": "Finish Yasmani's Jewelry Jobs in Chapter 3 so you own the Snap Gun and the stores are marked. Use the Snap Gun on the back door, because a kick sets off the alarm, then read the safe code, empty the safe, wipe the camera footage, and shut the alarm off. Richardson Jewelry and Diamonds in Vice City is a known quiet target, and the trophy pops shortly after you leave unseen, so reload if anyone spots you. [s2][s3][s1]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish Yasmani's Jewelry Jobs in Chapter 3 so you own the Snap Gun and jewelry stores are marked.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Use the Snap Gun on the back door. Kicking the door sets off the alarm. In the back room, read the safe code, empty the safe, wipe the camera footage, and shut off the alarm.",
-          "cites": ["s1", "s2", "s3"]
+          "cites": [
+            "s1",
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Richardson Jewelry and Diamonds in Vice City is a known quiet target. The trophy pops shortly after you leave unseen. Reload if anyone spots you.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -965,19 +1295,31 @@
     "chapter": "After Chapter 4 optional job That's Where The Money Is.",
     "missable": "none",
     "count": 5,
-    "guide": {
+    "guide": "Do the Chapter 4 optional mission That's Where The Money Is, which teaches the vault job and counts as your first. After Yasmani's payday-loan work, pay him for security-van tips, follow the van, enter while the guard has the vault open, and hand a bag to your partner when you cannot carry more. Any five vaults unlock the silver, 100% wants all eight large-bank vaults, and leaving the red heat zone is part of the escape. [s2][s3][s1][s6]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Do the Chapter 4 optional mission That's Where The Money Is. It teaches the vault job and counts as your first one.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "After Yasmani's earlier payday-loan work, pay him for security-van tips. Follow the van, enter while the guard has the vault open, and hand a bag to your partner when you cannot carry more.",
-          "cites": ["s1", "s3", "s6"]
+          "cites": [
+            "s1",
+            "s3",
+            "s6"
+          ]
         },
         {
           "text": "Any five vaults unlock the silver. 100% wants all eight large-bank vaults, so the trophy comes along the way. Leaving the red heat zone is part of the escape.",
-          "cites": ["s2", "s3", "s6"]
+          "cites": [
+            "s2",
+            "s3",
+            "s6"
+          ]
         }
       ]
     }
@@ -991,19 +1333,29 @@
     "kind": "misc",
     "chapter": "Same Chapter 4 intro as the bank vaults, or earlier in Vice City.",
     "missable": "none",
-    "guide": {
+    "guide": "Rob an armored truck and get out of the red heat zone. Clearing a large-bank vault during That's Where The Money Is counts, because you tail the truck first, and an earlier route is to block a truck near a Vice City bank and blow the rear door with the sticky bombs from the back of Yasmani's shop. You will hit every large bank for 100%, so this bronze is hard to miss on that checklist. [s1][s2][s3][s6]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Rob an armored truck and get out of the red heat zone. Clearing a large-bank vault during That's Where The Money Is counts, because you tail the truck first.",
-          "cites": ["s1", "s2", "s3"]
+          "cites": [
+            "s1",
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "For an earlier attempt, block a truck near a Vice City bank, stick a bomb on the rear door, and blow it. Sticky bombs are in the back of Yasmani's shop after his jobs.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "You will hit every large bank for 100%, so this bronze is hard to miss if you finish that checklist.",
-          "cites": ["s3", "s6"]
+          "cites": [
+            "s3",
+            "s6"
+          ]
         }
       ]
     }
@@ -1017,15 +1369,22 @@
     "kind": "collectible",
     "chapter": "Any time. Fastest by air after you can fly.",
     "missable": "none",
-    "guide": {
+    "guide": "Remove the black fog from the whole Leonida map. A plane is the quick way: fly over every dark patch until the map is fully drawn in. [s1][s3][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Remove the black fog from the whole Leonida map.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "A plane is the quick way. Fly over every dark patch until the map is fully drawn in.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -1039,19 +1398,29 @@
     "kind": "misc",
     "chapter": "Yellow icons as you explore. All 39 are needed for 100%.",
     "missable": "none",
-    "guide": {
+    "guide": "Rob one illegal operation from each of the nine gangs guides count. Yellow icons appear when you get close, some are marked by the story, and Progress, Gangs shows how many of that gang's sites you have hit. 100% wants all 39 operations, including their key valuables, so this bronze pops during that cleanup, and a missed valuable comes back only after a long wait. [s1][s2][s4][s3][s6]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Rob one illegal operation from each gang. Guides count nine gangs.",
-          "cites": ["s1", "s2", "s4"]
+          "cites": [
+            "s1",
+            "s2",
+            "s4"
+          ]
         },
         {
           "text": "Yellow icons appear when you get close, and some are marked by the story. Check Progress, Gangs, for how many of that gang's sites you have hit.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "100% wants all 39 operations, including their key valuables, so this bronze pops during that cleanup. Sites come back if you missed a valuable, but the wait is long.",
-          "cites": ["s3", "s6"]
+          "cites": [
+            "s3",
+            "s6"
+          ]
         }
       ]
     }
@@ -1065,19 +1434,28 @@
     "kind": "misc",
     "chapter": "Ocean Beach rooftop bar, any time you can reach it.",
     "missable": "none",
-    "guide": {
+    "guide": "Go to the rooftop bar on Ocean Beach (one write-up names the Ocean View Hotel: pool level, Rooftop Access, then the lift) and drink an Apple Martini at the bar with the view in front of you. Output Lag still files the trigger as unconfirmed at launch, so if the martini does not pop it, try the bar again rather than assuming a story flag. [s1][s4][s3][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Go to the rooftop bar on Ocean Beach. One write-up names the Ocean View Hotel: pool level, Rooftop Access, then the lift.",
-          "cites": ["s1", "s4"]
+          "cites": [
+            "s1",
+            "s4"
+          ]
         },
         {
           "text": "Buy an Apple Martini and drink it while you are still at the bar, with the view in front of you.",
-          "cites": ["s3", "s4"]
+          "cites": [
+            "s3",
+            "s4"
+          ]
         },
         {
           "text": "Output Lag still files this trigger as unconfirmed at launch, so if the martini does not pop it, try the bar again rather than assuming a story flag.",
-          "cites": ["s2"]
+          "cites": [
+            "s2"
+          ]
         }
       ]
     }
@@ -1091,19 +1469,28 @@
     "kind": "misc",
     "chapter": "After the key cloner in Chapter 3.",
     "missable": "none",
-    "guide": {
+    "guide": "Get the key cloner from the Chapter 3 mission where you steal the Zorrusso for Randy. The filmed route uses the blue Banshee in the south Vice City showroom: hack it, drive forward, and go straight through the glass. The pop lands a little late, out on the street, and other cars in that room are reported not to count, so stick to the blue one while a second guide still marks the trigger unconfirmed. [s3][s1][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Get the key cloner from the Chapter 3 mission where you steal the Zorrusso for Randy.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "The walkthrough that films this trophy uses the blue Banshee in the showroom in south Vice City. Hack it, drive forward, and go straight through the glass.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "The pop is a little late, once you are out on the street. Other cars in that room are reported not to count. A second guide still marks the trigger unconfirmed, so stick to that blue car.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -1117,19 +1504,29 @@
     "kind": "misc",
     "chapter": "Chapter 2 optional hit at Kingpin Bowling, Port Gellhorn.",
     "missable": "watch",
-    "guide": {
+    "guide": "Kingpin Bowling in Port Gellhorn is the Kolt and Associates alley, marked by the Chapter 2 optional job Hit Kingpin Bowling. Take the luxury watch in the south-east office, the unique shotgun on the table in the north-east corner, and the safe in the north-east hallway (code 0300 or a sticky bomb), then escape the police after the third item. You can leave and come back when the robbery icon returns, so missing one item during the mission does not kill the trophy. [s2][s3][s4]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Kingpin Bowling in Port Gellhorn is the Kolt and Associates alley. The Chapter 2 optional job Hit Kingpin Bowling marks it.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Take three key items: the luxury watch in the south-east office, the unique shotgun on the table in the north-east corner, and the safe in the north-east hallway. The safe takes code 0300 or a sticky bomb.",
-          "cites": ["s3", "s4"]
+          "cites": [
+            "s3",
+            "s4"
+          ]
         },
         {
           "text": "Escape the police after the third item. You can leave and come back when the robbery icon returns, so missing one item during the mission does not kill the trophy.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -1143,19 +1540,30 @@
     "kind": "misc",
     "chapter": "After Coffee Break. Train both characters.",
     "missable": "watch",
-    "guide": {
+    "guide": "Max out Strength on Jason and Lucia at the same time, watching the heart icon on each character page. Buy a gym membership and always call your partner first, because the partner trains while you do. Switching opens after Coffee Break, so finish the pair workouts before the last mission if an ending might limit who you can play. [s1][s3][s4][s2][s5]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Max out Strength on Jason and Lucia at the same time. The heart icon on each character page shows the stat.",
-          "cites": ["s1", "s3", "s4"]
+          "cites": [
+            "s1",
+            "s3",
+            "s4"
+          ]
         },
         {
           "text": "Buy a gym membership and always call your partner first. The partner trains while you do, so one workout advances both.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Switching opens after Coffee Break. If an ending might limit who you can play, finish the pair workouts before the last mission.",
-          "cites": ["s2", "s5"]
+          "cites": [
+            "s2",
+            "s5"
+          ]
         }
       ]
     }
@@ -1170,19 +1578,29 @@
     "chapter": "Passive across the whole game.",
     "missable": "none",
     "count": 500,
-    "guide": {
+    "guide": "Log 500 actions that move your criminal profile, using the trophy counter and the optional HUD face so you can see what counts. Stealth finishes, limb shots, kills, and messy escapes feed different tiers, and robberies plus fights usually fill the total on a 100% run. If you are still short, driving through crowds is the fast farm, but stay out of the permanent Irredeemable tier if you can. [s1][s3][s2][s5]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Log 500 actions that move your criminal profile. The trophy's own counter shows the tally.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "Turn on criminal-profile HUD notices so the small face appears when something counts. Stealth finishes, limb shots, kills, and messy escapes all feed different tiers.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "Robberies and fights usually fill it during a 100% run. If it is still short, driving through crowds is the fast farm. Stay out of the permanent Irredeemable tier if you can.",
-          "cites": ["s2", "s3", "s5"]
+          "cites": [
+            "s2",
+            "s3",
+            "s5"
+          ]
         }
       ]
     }
@@ -1196,19 +1614,28 @@
     "kind": "misc",
     "chapter": "After Chapter 3 Credit Check. Lucia, alone, in Little Cuba.",
     "missable": "none",
-    "guide": {
+    "guide": "In the prologue Lucia robs a payday-loan store, and this trophy is for robbing that same store again. After Credit Check, go alone as Lucia, without Jason, to the payday loan in Little Cuba, clear the room, take all three drawers, and run away on foot until you leave the search area. Driving off is reported not to count, and Output Lag still lists the trigger as unconfirmed, so follow that on-foot route if a vaguer attempt fails. [s1][s3][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "In the prologue Lucia robs a payday-loan store. This trophy is for robbing that same store again.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "After Credit Check you have payday-loan jobs and the dye-pack jammer. Go alone as Lucia, without Jason, to the payday loan in Little Cuba. Clear the room, take all three drawers, and run away on foot until you are out of the search area.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "Driving off is reported not to count. Output Lag still lists the trigger as unconfirmed, so follow the on-foot Little Cuba route if a vaguer attempt fails.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -1222,19 +1649,27 @@
     "kind": "misc",
     "chapter": "Night event in Kelly County, or a second unconfirmed lead.",
     "missable": "none",
-    "guide": {
+    "guide": "One filmed method is a night UFO north-west of the Starlet Motel in Kelly County after 2 a.m., going alone, and a blinking roadside car means the event can start. If the car is missing, leave and come back, then follow the woods toward the blue light, talk to the woman the craft drops, and walk her back to the car. A second guide still calls the trigger unconfirmed and also mentions a one-time graffiti code in a Crosstown stairwell, so try the motel road first and save before you hunt the blinking car. [s3][s4][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "One filmed method is a night UFO north-west of the Starlet Motel in Kelly County, after 2 a.m., and you go alone. A blinking car on the roadside means the event can start. If the car is missing, leave and come back.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "Follow the path into the woods toward the blue light. The craft drops a woman. Talk to her, agree to help, and walk her back to the car.",
-          "cites": ["s3", "s4"]
+          "cites": [
+            "s3",
+            "s4"
+          ]
         },
         {
           "text": "A second guide still calls the trigger unconfirmed and also mentions a one-time graffiti code in a Crosstown stairwell that may open a ground-floor safe. Try the motel road first, and save before you hunt the blinking car.",
-          "cites": ["s2"]
+          "cites": [
+            "s2"
+          ]
         }
       ]
     }
@@ -1249,19 +1684,28 @@
     "chapter": "Any crowded street, on a bike.",
     "missable": "none",
     "count": 10,
-    "guide": {
+    "guide": "Ride a motorcycle or a bicycle and knock down 10 pedestrians with a melee hit inside 60 seconds. Vice City sidewalks and the Ocean Beach boardwalk are the crowded spots, and a slow pass alongside people works better than full speed. Output Lag still lists this as unconfirmed, so if a car or a weapon swing does nothing, switch to a bike and count ten kicks. [s1][s3][s4][s2]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Ride a motorcycle or a bicycle and knock down 10 pedestrians with a melee hit inside 60 seconds.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "Vice City sidewalks and the Ocean Beach boardwalk are the crowded spots guides name. Ride slowly alongside people rather than at full speed.",
-          "cites": ["s3", "s4"]
+          "cites": [
+            "s3",
+            "s4"
+          ]
         },
         {
           "text": "Output Lag still lists this one as unconfirmed, so if a car or a weapon swing does nothing, switch to a bike and count ten kicks.",
-          "cites": ["s2"]
+          "cites": [
+            "s2"
+          ]
         }
       ]
     }
@@ -1276,19 +1720,29 @@
     "chapter": "After Chapter 3 Credit Check. Big money after bank vaults.",
     "missable": "none",
     "count": 250000,
-    "guide": {
+    "guide": "Finish Credit Check so you have the dye-pack jammer, then sell marked bills from banks and payday-loan jobs to a fence. Yasmani in Vice City is listed as the best rate, and the $250,000 adds up across trips rather than one drop. Large vaults, after That's Where The Money Is, pay up to about $205,000 each, so a 100% robbery run covers this. [s2][s3][s1][s6]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Finish Credit Check so you have the dye-pack jammer. Marked bills come from banks and payday-loan jobs.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Sell those bills to a fence. Yasmani in Vice City is listed as the best rate. The $250,000 adds up across trips. You do not need it in one drop.",
-          "cites": ["s1", "s3"]
+          "cites": [
+            "s1",
+            "s3"
+          ]
         },
         {
           "text": "Large vaults, after That's Where The Money Is, pay up to about $205,000 each, so a 100% robbery run covers this.",
-          "cites": ["s3", "s6"]
+          "cites": [
+            "s3",
+            "s6"
+          ]
         }
       ]
     }
@@ -1303,19 +1757,28 @@
     "chapter": "Any time shops are open. Spend before Chapter 1 wipes cash.",
     "missable": "watch",
     "count": 100000,
-    "guide": {
+    "guide": "Spend $100,000 in total across shops. Guns, car mods, and tattoos are the expensive shortcuts, and mod shops, Pay 'n' Spray, Ammu-Nation, clothes, and salons all share one tally. Starting Tourist Trap at the end of Chapter 1 wipes the cash you are carrying, so buy weapons and clothes before that mission, because the purchases themselves stay with you. [s1][s2][s3][s5]",
+    "walkthrough": {
       "steps": [
         {
           "text": "Spend $100,000 in total across shops. Guns, car mods, and tattoos are the expensive shortcuts.",
-          "cites": ["s1", "s2", "s3"]
+          "cites": [
+            "s1",
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "The tally is every shop type together, not one store. Mod shops, Pay 'n' Spray, Ammu-Nation, clothes, and salons all count.",
-          "cites": ["s3"]
+          "cites": [
+            "s3"
+          ]
         },
         {
           "text": "Starting Tourist Trap at the end of Chapter 1 wipes the cash you are carrying. Buy weapons and clothes before that mission if you have money to spare. Purchases stay with you.",
-          "cites": ["s5"]
+          "cites": [
+            "s5"
+          ]
         }
       ]
     }
@@ -1330,15 +1793,23 @@
     "chapter": "Vice City Real Estate app, after Chapter 2 Daily Driver.",
     "missable": "none",
     "count": 8,
-    "guide": {
+    "guide": "After Daily Driver, buy garages from the Vice City Real Estate app on the phone. Only the eight garages you purchase count. The four the story hands you do not, and the eight together cost about $160,000. [s2][s3][s1]",
+    "walkthrough": {
       "steps": [
         {
           "text": "After Daily Driver, the Vice City Real Estate app is installed. Buy the garages from the phone.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Only the eight garages you purchase count. The four the story hands you do not. The eight together cost about $160,000.",
-          "cites": ["s1", "s2", "s3"]
+          "cites": [
+            "s1",
+            "s2",
+            "s3"
+          ]
         }
       ]
     }
@@ -1353,19 +1824,30 @@
     "chapter": "After Chapter 2 Moses. Needs garage space.",
     "missable": "none",
     "count": 10,
-    "guide": {
+    "guide": "The Scooter Bros app arrives with the Chapter 2 mission where you take a vehicle to Moses, and each registration needs a free garage space, so buy garages first. Drive an untracked stolen car to Moses in Port Gellhorn, then choose Respray and Register, using cheap cars to keep the fee down. From Chapter 3, cars with a standard tracker can also be registered at a Pay 'n' Spray. [s1][s2][s3]",
+    "walkthrough": {
       "steps": [
         {
           "text": "The Scooter Bros app arrives with the Chapter 2 mission where you take a vehicle to Moses. Each registration needs a free garage space, so buy garages first.",
-          "cites": ["s1", "s2", "s3"]
+          "cites": [
+            "s1",
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "At the start, drive an untracked stolen car to Moses in Port Gellhorn, then choose Respray and Register. Cheap cars keep the fee down.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "From Chapter 3, cars with a standard tracker can also be registered at a Pay 'n' Spray.",
-          "cites": ["s2", "s3"]
+          "cites": [
+            "s2",
+            "s3"
+          ]
         }
       ]
     }

@@ -3,7 +3,7 @@
  * Copies app/ and screenshots/ into MAKEFUN_OUTPUT_DIR (default /output)
  * and writes dossier.json from that directory.
  */
-import { cpSync, existsSync, mkdirSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { DossierError, buildDossier } from './vendor/makefun-frontend.ts';
 
@@ -95,9 +95,39 @@ console.log(
   `Copied ${appCopy.files} app files (${appCopy.bytes} bytes) and ${shotCopy.files} screenshots (${shotCopy.bytes} bytes)`,
 );
 
+/** Gate rule: every trophy guide is prose, not the step object. */
+function assertTextGuides(): void {
+  const path = join(outputDir, 'app', 'data', 'trophies.json');
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(readFileSync(path, 'utf8'));
+  } catch (err) {
+    const detail = err instanceof Error ? err.message : String(err);
+    fail(`Cannot pack: failed to read ${path} before building the dossier (${detail}).`);
+  }
+  if (!Array.isArray(parsed)) {
+    fail(`Cannot pack: ${path} is not a trophy array, so the dossier was not built.`);
+  }
+  for (let index = 0; index < parsed.length; index += 1) {
+    const trophy = parsed[index];
+    const id =
+      trophy && typeof trophy === 'object' && 'id' in trophy && typeof (trophy as { id: unknown }).id === 'string'
+        ? (trophy as { id: string }).id
+        : `#${index}`;
+    const guide =
+      trophy && typeof trophy === 'object' && 'guide' in trophy ? (trophy as { guide: unknown }).guide : undefined;
+    if (typeof guide !== 'string' || guide.trim() === '') {
+      fail(
+        `Cannot pack: trophy ${id} has no non-blank text guide. The dossier was not built. Put the short summary in "guide" and the steps under "walkthrough".`,
+      );
+    }
+  }
+}
+
 const dossierPath = join(outputDir, 'dossier.json');
 let dossier: Uint8Array;
 try {
+  assertTextGuides();
   dossier = buildDossier(outputDir, dossierCaps);
 } catch (err) {
   if (err instanceof DossierError) {

@@ -1,6 +1,7 @@
 /**
  * Check app/data/trophies.json and app/data/sources.json.
- * Expects 55 trophies, grades 1/2/6/46, every guide step cited, and cite ids that exist.
+ * Expects 55 trophies, grades 1/2/6/46, a non-blank text guide on each,
+ * cited steps under walkthrough, and cite ids that exist.
  */
 import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -58,9 +59,14 @@ if (!Array.isArray(trophies)) {
     if (!Object.hasOwn(expectedGrades, grade)) problems.push(`${where} (${id || '?'}) grade ${JSON.stringify(grade)}`);
     else grades[grade] += 1;
 
-    const list = trophy && trophy.guide && trophy.guide.steps;
+    const guide = trophy && trophy.guide;
+    if (typeof guide !== 'string' || guide.trim() === '') {
+      problems.push(`${where} (${id || '?'}) guide must be a non-blank string`);
+    }
+
+    const list = trophy && trophy.walkthrough && trophy.walkthrough.steps;
     if (!Array.isArray(list) || list.length === 0) {
-      problems.push(`${where} (${id || '?'}) has no guide steps`);
+      problems.push(`${where} (${id || '?'}) has no walkthrough steps`);
       return;
     }
     list.forEach((step, stepIndex) => {
