@@ -1,25 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA VI trophy checklist</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sunline Trophy Desk</title>
+  <link rel="stylesheet" href="desk.css">
 </head>
 <body>
-<header>
-  <h1>GTA VI trophy checklist</h1>
-  <p id="progress">0 of 55 earned</p>
-</header>
-<div class="controls">
-  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
-  <button id="export" type="button">Export progress</button>
-  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
-</div>
-<table>
-  <thead><tr><th>Earned</th><th>Trophy</th><th>Grade</th><th>How to get it</th></tr></thead>
-  <tbody id="rows"></tbody>
-</table>
-<script type="module" src="app.js"></script>
+  <header class="mast">
+    <div class="brand">
+      <p class="mark">Sunline</p>
+      <h1>Trophy Desk</h1>
+    </div>
+    <dl class="audit" id="audit" aria-label="List audit">
+      <div>
+        <dt>Official list</dt>
+        <dd id="audit-count">Loading</dd>
+      </div>
+      <div>
+        <dt>Grades</dt>
+        <dd id="audit-grades">1 platinum, 2 gold, 6 silver, 46 bronze</dd>
+      </div>
+      <div>
+        <dt>Cited steps</dt>
+        <dd id="audit-cites">…</dd>
+      </div>
+      <div>
+        <dt>Sources read</dt>
+        <dd id="audit-sources">…</dd>
+      </div>
+    </dl>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button type="button" class="tab" role="tab" id="tab-tracker" data-tab="tracker" aria-selected="true">Tracker</button>
+    <button type="button" class="tab" role="tab" id="tab-roadmap" data-tab="roadmap" aria-selected="false">Roadmap</button>
+    <button type="button" class="tab" role="tab" id="tab-missables" data-tab="missables" aria-selected="false">Missables</button>
+    <button type="button" class="tab" role="tab" id="tab-sources" data-tab="sources" aria-selected="false">Sources</button>
+  </nav>
+
+  <main>
+    <section id="panel-tracker" class="panel" role="tabpanel" aria-labelledby="tab-tracker">
+      <div class="toolbar">
+        <label>Kind
+          <select id="filter-kind">
+            <option value="all">All kinds</option>
+            <option value="story">Story</option>
+            <option value="missable">Missable</option>
+            <option value="collectible">Collectibles</option>
+            <option value="activity">Activities</option>
+            <option value="online">Online</option>
+          </select>
+        </label>
+        <label>Grade
+          <select id="filter-grade">
+            <option value="all">All grades</option>
+            <option value="platinum">Platinum</option>
+            <option value="gold">Gold</option>
+            <option value="silver">Silver</option>
+            <option value="bronze">Bronze</option>
+          </select>
+        </label>
+        <label>Progress
+          <select id="filter-earned">
+            <option value="all">Earned and open</option>
+            <option value="earned">Earned</option>
+            <option value="unearned">Unearned</option>
+          </select>
+        </label>
+        <label class="spoiler" for="spoiler">
+          <input type="checkbox" id="spoiler">
+          Hide story spoilers
+        </label>
+        <span class="progress" id="progress-label"></span>
+        <button type="button" id="export-btn">Export</button>
+        <label class="file-btn">Import
+          <input type="file" id="import-file" accept="application/json,.json">
+        </label>
+      </div>
+      <div class="tracker">
+        <ul class="list" id="trophy-list"></ul>
+        <article class="guide" id="guide" aria-live="polite"></article>
+      </div>
+    </section>
+
+    <section id="panel-roadmap" class="panel" role="tabpanel" hidden aria-labelledby="tab-roadmap">
+      <p class="lede" id="roadmap-note"></p>
+      <ol class="cards" id="roadmap"></ol>
+    </section>
+
+    <section id="panel-missables" class="panel" role="tabpanel" hidden aria-labelledby="tab-missables">
+      <p class="lede">Watch is a cited timing risk. Possible means the lock is soft or the notes hedge. Read across the chapter columns.</p>
+      <div id="matrix"></div>
+    </section>
+
+    <section id="panel-sources" class="panel" role="tabpanel" hidden aria-labelledby="tab-sources">
+      <p class="lede" id="sources-note"></p>
+      <div class="sources-layout">
+        <ol class="source-list" id="source-list"></ol>
+        <div id="coverage"></div>
+      </div>
+    </section>
+  </main>
+  <script src="desk.js"></script>
 </body>
 </html>
